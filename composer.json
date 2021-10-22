@@ -1,0 +1,25 @@
+{
+    "name": "cmdrtpir/timezone",
+    "description": "Add the ability to force your Laravel project into a timezone using enviroment variables.",
+    "authors": [
+        {
+            "name": "Erik Fredriksen",
+            "email": "erik@fredriksen.se"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CmdrTpir\\Timezone\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CmdrTpir\\Timezone\\TimezoneServiceProvider"
+            ]
+        }
+    },
+    "require": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
